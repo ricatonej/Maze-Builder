@@ -22,3 +22,6 @@ class Maze:
         self.width = width
         self.height = height
         self.maze = [[0 for i in range(height)] for i in range(width)]
+
+    def generatemaze(self):
+        pass
